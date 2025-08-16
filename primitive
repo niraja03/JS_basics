@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test JS</title>
+</head>
+<body>
+  <h1>Learn JS</h1>
+  <script src="first.js"></script>
+</body>
+</html>
+
+
+//primitive / value types
+// JS is dynamic , ex: can change with type of data type, & values change
+
+//string
+let x="niraja";
+console.log(x);
+console.log(typeof(x));
+//num 
+let y=20;
+console.log(y);
+console.log(typeof(y));
+//float
+let z= 3.4;
+console.log(z);
+console.log(typeof(z));
+//boolean
+let a=true;
+console.log(a);
+console.log(typeof(a));
+//defaul check
+let b;
+console.log(b);
+b=76;
+console.log(typeof(b));
+//undefined
+let c;
+console.log(c);
+c=undefined;
+console.log(typeof(c));
