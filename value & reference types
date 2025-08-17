@@ -1,0 +1,17 @@
+//value copy type
+let x= "niraja";
+let y= x;
+
+x="kurra";
+console.log(x);
+console.log(y);
+
+
+//reference copy type
+let a ={name : "gowi"}
+let b=a;
+
+a.name ="hey";
+
+console.log(a);
+console.log(b);
