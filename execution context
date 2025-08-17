@@ -2,7 +2,7 @@
 // 1. memory alocation phase : variable env
 // 2. code phase : thread of execution 
 
-
+// let a=10; will work here & throws error when used in middle
 console.log(a);
 console.log(this.a);
 console.log(window.a);
