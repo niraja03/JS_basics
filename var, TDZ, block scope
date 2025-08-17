@@ -1,0 +1,19 @@
+// variables temporal dead zone
+
+
+// TDZ for let and const (block scoped)
+// no TDZ for var(fn scoped) bcoz we can access earlier also 
+let m= 10;
+var o=20;
+const n=30;
+console.log(m); // no TDZ bcoz printing after declaration
+
+// blocked scope ex: 
+{
+    let m= 10;
+    var o=20;
+    const n=30; //within block i can call all
+}  
+// so i can do console log for var only
+
+
