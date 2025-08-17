@@ -1,0 +1,15 @@
+// execution context
+// 1. memory alocation phase : variable env
+// 2. code phase : thread of execution 
+
+
+console.log(a);
+console.log(this.a);
+console.log(window.a);
+//till here o/p is undefined bcoz didn't declared anything
+
+var a=10; // from this values will get assign
+
+console.log(a);
+console.log(this.a);
+console.log(window.a);
