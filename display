@@ -1,0 +1,16 @@
+// reference types : objects, arrays, functions
+
+let course = {
+    title : "nie",
+    description : "hello",
+    ratings : 10,
+
+};
+
+console.log(course);   
+console.log(typeof(course));
+
+// diff ways to represent notations
+console.log(course.type);
+console.log(course['description']);
+
