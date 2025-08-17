@@ -1,0 +1,9 @@
+//arrays element accessing
+//arrays & fns r objects
+//js is dynamic
+
+let courses = ['true', 61, 'js', 'dsa', null]; //any data type we can add
+console.log(courses[0]);
+console.log(courses[1]);
+console.log(typeof(courses));
+console.log(courses);
