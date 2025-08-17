@@ -1,0 +1,7 @@
+//functions
+
+function createcourse(coursename){
+    console.log('creating' +' ' + coursename);
+}
+createcourse('dsa');
+createcourse('ai');
