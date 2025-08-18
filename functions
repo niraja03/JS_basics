@@ -5,3 +5,6 @@ function createcourse(coursename){
 }
 createcourse('dsa');
 createcourse('ai');
+
+//  all fns in JS : first class fn
+// higher order fns : fns that take/return other fns
