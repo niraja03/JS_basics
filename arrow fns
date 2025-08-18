@@ -1,0 +1,17 @@
+function sum(a,b){
+    return a+b;
+}
+//both r same
+
+let sum= function(a,b){
+    return a+b;
+}
+// swap function with => , also works :ES6
+
+let sum = (a,b) => {
+    return a+b;
+}
+
+//if it is only single line return then not necessary of return a+b, so, only a+b also works
+
+let sum = (a,b) =>  a+b; //this is same as first line of block code & let also
