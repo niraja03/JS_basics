@@ -1,0 +1,14 @@
+let sum = function add(m,n){
+    return(m+n);
+}
+
+let diff = function sub(m,n){
+    return(m-n);
+}
+
+function operate(operationfunc, a, b){
+    return operationfunc(a,b); // Here, operationfunc = sum, and operationfunc = diff
+}
+
+console.log(operate(sum, 2,3));
+console.log(operate(diff, 2,3));
