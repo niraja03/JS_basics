@@ -1,0 +1,9 @@
+// Reduce : is we reduce to single value
+
+
+
+//product :
+const nums = [1,2,3,4,5];
+console.log(nums);
+const product = nums.reduce((accumulator , dobnum) => accumulator * dobnum, 1);
+console.log(product);
