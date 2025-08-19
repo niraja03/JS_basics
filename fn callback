@@ -1,0 +1,18 @@
+// Callback = “Call this function after another task finishes.”
+
+function fetchdata(callback) {
+    setTimeout(() => {
+        let data = 'fetched data, in 5sec';
+        callback(null , data);
+    }, 5000);   
+}
+
+function handleData(error,data) {
+    if(error) {
+        console.error(error);
+    } else{
+        console.log(data);
+    }
+}
+
+fetchdata(handleData);
