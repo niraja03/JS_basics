@@ -16,3 +16,7 @@ function handleData(error,data) {
 }
 
 fetchdata(handleData);
+
+//event que :stores data
+
+//event loop : goes next process when opern completed: is the reason for callback
