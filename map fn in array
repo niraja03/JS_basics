@@ -1,0 +1,9 @@
+// Map : is used to create a new array by applying a function to each element of the original array.
+// Does not change original array → It only returns a new one.
+// Whatever you write in map will run for every element.
+// Best when you want to modify each element in some way.
+
+const nums = [1,2,3,4,5];
+console.log(nums);
+const doublenums = nums.map((dobnum) => dobnum*2);
+console.log(doublenums);
