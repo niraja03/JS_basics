@@ -1,0 +1,23 @@
+// Creating a Promise
+let myPromise = new Promise((resolve, reject) => {
+    // async task
+    let success = true; // change to false to test rejection
+
+    if (success) {
+        resolve("Task done successfully");
+    } else {
+        reject("Task failed");
+    }
+});
+
+// Consuming a Promise
+myPromise
+    .then(result => {
+        console.log("Success:", result);
+    })
+    .catch(error => {
+        console.error("Error:", error);
+    })
+    .finally(() => {
+        console.log("Task finished");
+    });
