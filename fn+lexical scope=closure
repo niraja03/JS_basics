@@ -1,0 +1,16 @@
+// fn + lexical scope = closure
+// lex//lexical scope is if value is not present within brackets then it come out od brac and checks
+
+a=10;
+function outer() {
+    a=100;
+    function inner(){
+        console.log(a);
+    }
+    return inner;
+}
+
+let newfn = outer() ;
+a=20;
+console.log(newfn);
+newfn();
