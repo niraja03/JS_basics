@@ -1,0 +1,7 @@
+//Filter : Returns new array → does not modify the old one.
+// Works on condition → keeps only elements where condition = true.
+
+const nums = [1,2,3,4,5];
+console.log(nums);
+const evens = nums.filter((dobnum) => dobnum%2===0); //filter is even num
+console.log(evens);
