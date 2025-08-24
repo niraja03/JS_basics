@@ -1,7 +1,14 @@
+function fn() {
+    console.log("heyyyaaaaaa")
+}
+fn();
+fn();
+fn(); //calling fns
+
+
 function fn(a,b) {
     console.log(a+b)
 }
-
 fn(5,6);
 fn(13,7);
 
