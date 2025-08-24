@@ -1,0 +1,7 @@
+function fnname(val) {
+    if(val==12) {
+        return true;
+    }
+    return false;
+}
+console.log(fnname(22));
