@@ -1,0 +1,16 @@
+function fnadd(num) {
+    return num +20;
+}
+console.log(fnadd(30));
+
+
+function fnsub(num) {
+    return 40-num ;
+}
+console.log(fnsub(15));
+
+
+function fnmul(num) {
+    return num*3;
+}
+console.log(fnmul(10));
