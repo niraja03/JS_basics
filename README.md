@@ -4,3 +4,4 @@
 Sync code = happens immediately (2 + 2 = 4).
 Async code = happens later (like waiting for food).
 Promise = a “ticket” that guarantees you’ll either get your food (resolve) or a refund slip (reject).
+update
