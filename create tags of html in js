@@ -1,3 +1,11 @@
+var root = document.querySelector("#root")
 var h1 = document.createElement('h1')
+h1.innerHTML = "hello" 
 
-console.log(h1)
+root.appendChild(h1)
+
+
+Select the element where you want to put stuff → document.querySelector("#root")
+Create a new element → document.createElement()
+Add content inside it → .innerHTML = ...
+Attach it to the page → .appendChild(...)
